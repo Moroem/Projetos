@@ -1,0 +1,92 @@
+/*Cascade Style Sheets*/
+
+/*- seletor */
+/*- Propriedade*/
+/*- Valor da Propriedade*/
+/*- Declaração*/
+
+header{
+    background-color: aquamarine;
+}
+
+h3{
+    font-size: 50px;
+}
+
+/* class */
+
+.ConteudoInicial{
+    background-color: aqua;
+}
+
+.ConteudoInicial.color-blue{
+    background-color: blue;
+}
+
+/* id */
+
+#titulo-strong{
+    font-size: 70px;
+}
+
+/* seletor por atributo */
+
+img[src]{
+    width: 300px;
+}
+
+a[href]{
+    background-color: blueviolet;
+}
+
+/* Unidades de Medida */
+/*
+Absolutas
+    px
+    
+Relativas
+    rem
+    %
+    vh
+    vw
+*/
+
+/* Fontes */
+
+section{
+    font-size: 20px;
+    font-weight:bold;
+    font-family:"Roboto", cursive;
+    text-align: center;
+    color: coral;
+}
+
+/* Dimensionamento - Propriedades para Elementos*/
+
+section{
+    background-color: thistle;
+    border: solid 3px crimson;
+    border-radius: 5px;
+    width: 300px;
+    height: 500px;
+    padding: 30px 40px 30px 40px;
+    margin: 20px auto;
+}
+
+/* Posicionamento 
+display: inline; - Não consegue aplicar altura e largura
+display: block; - Consegue aplicar ^
+display: inline-block;
+*/
+
+a{
+    display: inline;
+}
+
+span{
+    display: inline;
+}
+
+h2,p,div,article{
+    display: inline-block;
+}
